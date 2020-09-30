@@ -1,0 +1,3 @@
+C:/Users/guatu/CLionProjects/2Sem1A/cmake-build-debug/CMakeFiles/2Sem1A.dir
+C:/Users/guatu/CLionProjects/2Sem1A/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/guatu/CLionProjects/2Sem1A/cmake-build-debug/CMakeFiles/rebuild_cache.dir
