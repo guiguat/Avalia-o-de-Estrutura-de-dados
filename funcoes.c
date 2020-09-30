@@ -32,3 +32,29 @@ NoFatia * insere(NoFatia * l, int h, char t){
 
     return l;
 }
+
+// implementação
+
+void impFatias(NoFatia * l) {
+    for(NoFatia* p = l; p->prox != NULL; p = p->prox) {
+        printf("%d%c\n", p->altura, p->tipo);
+    }
+}
+int faseImpossivel(NoFatia* fatias, int puloMaximo) {
+    for(NoFatia* p = fatias; p->prox != NULL; p = p->prox){
+        if(p->altura > puloMaximo){
+            return 1;
+        }
+    }
+    return 0;
+}
+void canoNoFinal(NoFatia* fatias) {
+    NoFatia* fatiaFinal = fatias;
+    while(fatiaFinal->prox != NULL){
+        fatiaFinal = fatiaFinal->prox;
+    }
+
+    if (fatiaFinal->tipo != TIPO_CANO){
+        fatiaFinal->prox = criaNovaFatia(fatiaFinal->altura, TIPO_CANO);
+    }
+}

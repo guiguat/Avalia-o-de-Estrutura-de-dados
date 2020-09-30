@@ -5,8 +5,8 @@
 #ifndef INC_2SEM1A_FUNCOES_H
 #define INC_2SEM1A_FUNCOES_H
 #define SALTO_MAXIMO 6
-#define CANO 'C';
-#define NORMAL 'N';
+#define TIPO_CANO 'C'
+#define TIPO_NORMAL 'N'
 
 struct no{
     char tipo;

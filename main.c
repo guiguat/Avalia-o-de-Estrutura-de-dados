@@ -13,8 +13,7 @@ int main()
     fatias = insere(fatias, 2, 'N');
     canoNoFinal(fatias);
     impFatias(fatias);
-
-    printf("\nSalto m�ximo : %d\n", SALTO_MAXIMO);
+    printf("\nSalto maximo : %d\n", SALTO_MAXIMO);
     printf("\nTem fase impossivel? %d\n", faseImpossivel(fatias,SALTO_MAXIMO));
     return 0;
 }
